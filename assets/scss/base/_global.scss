@@ -1,0 +1,27 @@
+body {
+  font-family: $mainfont;
+  color: $black;
+}
+a {
+  text-decoration: none;
+  color: $black;
+}
+.container {
+  max-width: 1252px;
+  width: 95vw;
+  margin: 0 auto;
+}
+
+.logo {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 45px;
+  color: #001858;
+  text-transform: capitalize;
+  span {
+    color: #6246ea;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+  }
+}

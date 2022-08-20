@@ -1,0 +1,55 @@
+.header {
+  background-color: $light-grey1;
+  box-shadow: $header-shadow;
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 0 20px 0;
+  }
+  &__nav {
+    &-links {
+      display: flex;
+      align-items: center;
+      gap: 50px;
+    }
+    &-link {
+      display: flex;
+      align-items: center;
+      font-weight: 700;
+      font-size: $paragraph1;
+      line-height: 25px;
+      text-transform: capitalize;
+      padding-bottom: 5px;
+      border-bottom: 1px solid transparent;
+      transition: $transition;
+      a {
+        padding-left: 5px;
+      }
+      &:hover,
+      &:active {
+        border-bottom: 1px solid $blue;
+      }
+    }
+    .coffee-btn {
+      background-color: $blue;
+      border: 1px solid $blue;
+      padding: 11px 17px;
+      border-radius: 4px;
+      font-size: $paragraph2;
+      line-height: 23px;
+      a {
+        color: $white;
+      }
+      &:hover {
+        background-color: $white;
+        a {
+          color: $blue;
+        }
+        svg path {
+          fill: $blue;
+        }
+      }
+    }
+  }
+}
