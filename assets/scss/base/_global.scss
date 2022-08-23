@@ -2,6 +2,9 @@ body {
   font-family: $mainfont;
   color: $black;
 }
+html {
+  scroll-behavior: smooth;
+}
 a {
   text-decoration: none;
   color: $black;

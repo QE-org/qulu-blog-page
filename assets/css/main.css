@@ -141,6 +141,10 @@ body {
   color: #2b2c34;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 a {
   text-decoration: none;
   color: #2b2c34;
@@ -167,7 +171,6 @@ a {
 }
 
 .footer {
-  position: fixed;
   width: 100%;
   bottom: 0;
   background-color: #eff0f3;
@@ -244,6 +247,9 @@ a {
   background-color: #eff0f3;
   -webkit-box-shadow: 4px 6px 13px rgba(215, 215, 215, 0.25);
           box-shadow: 4px 6px 13px rgba(215, 215, 215, 0.25);
+  position: fixed;
+  z-index: 1;
+  width: 100%;
 }
 .header__wrapper {
   display: -webkit-box;
@@ -323,4 +329,89 @@ a {
   .header__menu {
     display: block;
   }
+}
+.hero {
+  background-image: url(../images/dot.svg);
+  background-color: #eff0f3;
+  background-size: cover;
+  position: relative;
+}
+.hero__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 800px;
+}
+.hero__info {
+  width: 50%;
+}
+.hero__title {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 51px;
+  text-transform: capitalize;
+  color: #2b2c34;
+  margin-bottom: 30px;
+}
+.hero__desc {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #9a9494;
+  margin-bottom: 33px;
+}
+.hero__subscribe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.hero__subscribe input {
+  padding: 21px 25px;
+  border: none;
+  width: 70%;
+  margin-right: 20px;
+  border-radius: 8px;
+}
+.hero__subscribe button {
+  color: #fff;
+  background-color: #6246ea;
+  cursor: pointer;
+  padding: 14px 23px;
+  border: 1px solid #6246ea;
+  border-radius: 8px;
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  text-transform: capitalize;
+}
+.hero__subscribe button:hover {
+  color: #6246ea;
+  background-color: #fff;
+}
+.hero__down {
+  position: absolute;
+  left: 50%;
+  bottom: 30px;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+}
+.hero__down:hover {
+  -webkit-transform: translateY(10px);
+      -ms-transform: translateY(10px);
+          transform: translateY(10px);
 }
