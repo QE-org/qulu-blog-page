@@ -1,0 +1,31 @@
+.categories {
+  background-color: $light-grey1;
+  padding: 68px 0;
+  &__items {
+    display: flex;
+    justify-content: space-between;
+    gap: 37px;
+  }
+  &__item {
+    background-color: #fff;
+    width: 220px;
+    height: 280px;
+    border-radius: 8px;
+    transition: 0.3s;
+    padding: 65px 35px 0;
+    &:hover {
+      background-color: $blue;
+      color: #fff;
+    }
+    &-logo {
+      margin-bottom: 30px;
+      border-radius: 8px;
+    }
+    &-title {
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 30px;
+      text-transform: capitalize;
+    }
+  }
+}
