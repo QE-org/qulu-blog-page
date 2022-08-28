@@ -2,7 +2,7 @@
 [x] fix social link in footer
 [x] create another categories articles section
 [x] create more article button
-[] subscribe section
+[x] subscribe section
 [] articles page
 [] categories page
 [] single article page

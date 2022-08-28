@@ -173,7 +173,7 @@ a {
 .footer {
   width: 100%;
   bottom: 0;
-  background-color: #eff0f3;
+  background-color: #e4e5e9;
   padding-top: 70px;
 }
 .footer__content {
@@ -623,4 +623,35 @@ a {
   font-size: 24px;
   line-height: 30px;
   text-transform: capitalize;
+}
+
+.subscribe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #eff0f3;
+  padding: 58px 0;
+}
+.subscribe__wrapper {
+  text-align: center;
+}
+.subscribe__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45px;
+  text-transform: capitalize;
+  margin: 30px 0 10px;
+}
+.subscribe__subtitle {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #c0c0c0;
+  margin-bottom: 30px;
 }
