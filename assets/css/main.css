@@ -682,3 +682,60 @@ a {
       -ms-flex-pack: start;
           justify-content: flex-start;
 }
+
+.article {
+  background-image: url("https://news.mit.edu/sites/default/files/styles/news_article__image_gallery/public/images/202208/LLSC-dataset.png?itok=EmXS-hfK");
+  background-repeat: no-repeat;
+  background-size: 100% 100vh;
+  background-position: center 80px;
+  padding-top: 90px;
+}
+.article__content {
+  background-color: #fff;
+  background: #fff;
+  width: 90vw;
+  margin-top: 55vh;
+  padding: 50px;
+}
+.article__title {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 81px;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.article__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0 4px 2px -1px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 4px 2px -1px rgba(0, 0, 0, 0.4);
+}
+.article__author-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.article__author-box span {
+  margin-left: 15px;
+}
+.article__text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #424242;
+  text-align: justify;
+}
