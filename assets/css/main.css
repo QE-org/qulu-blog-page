@@ -562,6 +562,8 @@ a {
   -o-transition: 0.3s;
   transition: 0.3s;
   padding: 65px 35px 0;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .categories__item:hover {
   background-color: #6246ea;
