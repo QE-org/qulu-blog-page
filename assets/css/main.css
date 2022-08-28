@@ -656,3 +656,29 @@ a {
   color: #c0c0c0;
   margin-bottom: 30px;
 }
+
+.categories-page {
+  padding-top: 150px;
+}
+.categories-page__items {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.articles-page {
+  padding-top: 150px;
+}
+.articles-page__featured {
+  margin: 0;
+  padding: 150px 0 0;
+}
+.articles-page__items {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}

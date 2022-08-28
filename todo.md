@@ -3,6 +3,6 @@
 [x] create another categories articles section
 [x] create more article button
 [x] subscribe section
-[] articles page
-[] categories page
+[x] articles page
+[x] categories page
 [] single article page

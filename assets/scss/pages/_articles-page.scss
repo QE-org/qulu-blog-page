@@ -1,0 +1,11 @@
+.articles-page {
+  padding-top: 150px;
+  &__featured {
+    margin: 0;
+    padding: 150px 0 0;
+  }
+  &__items {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+}
