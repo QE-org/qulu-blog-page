@@ -514,6 +514,7 @@ a {
   font-size: 16px;
   line-height: 20px;
   margin-bottom: 5px;
+  text-align: left;
 }
 .featured__item .item__footer-stats {
   display: -webkit-box;
