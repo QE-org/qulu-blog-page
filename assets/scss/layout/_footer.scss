@@ -16,6 +16,9 @@
       font-weight: 300;
       font-size: 18px;
       line-height: 23px;
+      &--link:hover {
+        color: $blue;
+      }
     }
     &-links {
       display: flex;
