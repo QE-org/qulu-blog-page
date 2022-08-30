@@ -503,6 +503,9 @@ a {
 .featured__item .item__footer-img {
   margin-right: 15px;
   border-radius: 50%;
+  width: 80px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .featured__item .item__footer-info {
   -webkit-box-flex: 1;
